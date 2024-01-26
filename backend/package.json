@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "prisma": "^5.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.7",
+    "typescript": "^5.3.3"
+  }
+}
