@@ -4,7 +4,7 @@ import { UnauthenticatedRouter } from "./unauthenticated"
 import { AuthenticatedRouter } from "./authenticated"
 
 export function Routes() {
-  const signed = false
+  const signed = true
   const [router, setRouter] = useState(UnauthenticatedRouter)
 
   useEffect(() => {
