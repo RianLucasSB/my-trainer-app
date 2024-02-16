@@ -11,7 +11,7 @@ import { Button } from "../ui/button"
 
 export function WorkoutCard() {
   return (
-    <Card className="bg-primary text-white cursor-pointer">
+    <Card className="bg-primary text-white cursor-pointer max-w-[350px]">
       <CardHeader>
         <CardTitle className="text-2xl">Back workout</CardTitle>
         <CardDescription>Lorem ipsum  illo laudantium aperiam?</CardDescription>

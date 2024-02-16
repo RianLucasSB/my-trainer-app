@@ -9,7 +9,7 @@ export function MyWorkoutsPage() {
         <h1 className="text-3xl font-bold my-4">Rian Workouts</h1>
         <div className="w-full h-[1px] bg-background"/>
 
-        <div className="w-full grid grid-cols-4 gap-4 py-4">
+        <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-4">
           <WorkoutCard />
           <WorkoutCard />
           <WorkoutCard />

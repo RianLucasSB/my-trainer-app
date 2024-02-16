@@ -1,21 +1,21 @@
 version: "3"
 services:
-  api:
-    container_name: fastify-typescript
-    ports:
-      - 5555:5555
-    build:
-      dockerfile: Dockerfile
-      context: .
-    env_file:
-      - .env
-    volumes:
-      - /app/node_modules
-      - ./:/app
-    networks:
-      - backend
-    depends_on:
-      - db
+  # api:
+  #   container_name: fastify-typescript
+  #   ports:
+  #     - 5555:5555
+  #   build:
+  #     dockerfile: Dockerfile
+  #     context: .
+  #   env_file:
+  #     - .env
+  #   volumes:
+  #     - /app/node_modules
+  #     - ./:/app
+  #   networks:
+  #     - backend
+  #   depends_on:
+  #     - db
   db:
     image: postgres:latest
     restart: always
